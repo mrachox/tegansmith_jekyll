@@ -1,0 +1,12 @@
+---
+title: Notes
+layout: page
+---
+
+<div>
+    {% for note in site.notes %}
+        <p>
+            <a href="{{ note.url }}">{{ note.note_title }}</a>
+        </p>
+    {% endfor %}
+</div>
