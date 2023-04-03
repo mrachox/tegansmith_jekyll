@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<!-- This needs to contain content from home page -->
